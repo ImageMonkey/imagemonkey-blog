@@ -1,0 +1,76 @@
+# Build settings
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+gems:
+  - jemoji
+  - jekyll-paginate
+
+future: true
+
+# Site settings
+title: "ImageMonkey - Blog"
+description: > # this means to ignore newlines until "email:"
+   ImageMonkey - a public, open source image dataset
+
+email: 
+#blog logo
+#logo: ""
+#float_logo: true # true, false (default)
+
+
+# blog cover
+cover: "/assets/images/header.jpg"
+
+name: 'Bernhard Beroun'
+author: 'Bernhard'
+author_image: "" #"/assets/images/author.jpg"
+
+paginate:	5
+
+url: "http://myblog.***.***" # the base hostname & protocol for your site
+baseurl: ""
+#used to display twitter cards
+twitter_handle: ''
+
+#fill in disqus shortname to use disqus
+#disqus: disqus-shortname
+
+#google_analytics: UA-XXXXX-X
+
+# social icons and sharing options
+social:
+#  - icon:	twitter
+#    url:	https://twitter.com/
+#    desc: Follow me on twitter
+#    share_url: http://twitter.com/share
+#    share_title: ?text=
+#    share_link: "&amp;url="
+
+#  - icon:	facebook
+#    url:	https://facebook.com/???
+#    desc: Connect with me facebook
+#    share_url: https://www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
+
+  - icon:	github
+    url:	https://github.com/bbernhard/imagemonkey-core
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:
