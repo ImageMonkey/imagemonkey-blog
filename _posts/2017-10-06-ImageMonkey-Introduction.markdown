@@ -6,7 +6,7 @@ categories: general
 image: /assets/article_images/2017-10-06-ImageMonkey-Introduction/taking_photo2.jpg
 ---
 
-It's now a week since I posted about ImageMonkey on [reddit](https://www.reddit.com/r/MachineLearning/comments/731zwb/p_imagemonkey_a_public_open_source_image_database/). While the initial rush on ImageMonkey now has slowed down and the load on the server stabilized again, it's time to reflect and plan the next development steps. 
+It's now a week since I posted about ImageMonkey on [reddit](https://www.reddit.com/r/MachineLearning/comments/731zwb/p_imagemonkey_a_public_open_source_image_database/). While the initial rush on ImageMonkey has slowed down and the load on the server stabilized again, it's time to reflect and plan the next development steps. 
 
 # Thanks reddit #
 First of all, I would like to thank the reddit community for all the great feedback and suggestions. It was my very first post on reddit and I wasn't expecting much, so I was really blown away to see that much load on the server. Hell, you guys even managed to take the server down temporarily!
@@ -18,15 +18,15 @@ To give you some figures: In the first two days after the reddit post we got an 
 Thanks, reddit!
 
 # Goals #
-
+<br>
 > How do you want to convince people to label images? 
 
 I think that's the question it all comes down to in the end. I am pretty sure there aren't many people out there that would use the words 'labeling images' and 'having fun' in one sentence. So in order to make the whole project work, we need to make the process of labeling images a painless and smooth as possible.
 
-The following are a list of things that I would like to accomplish with ImageMonkey:
+The following is a list of things that I would like to accomplish with ImageMonkey:
 
 
-* **KISS** As I would assume that there are not many people out there that actually have fun in labeling images, I think it's very important to make the process of labeling images as painless and fun as possible. I think if we make the labeling process too complicated people probably won't use it. It would for sure be awesome to have a really fine granual labeled dataset, but I think would already be a huge accomplishment to identify some simple things (*apple*, *banana*, *smartphone*) reliable.
+* **KISS** As I would assume there are not many people out there that actually have fun in labeling images, I think it's very important to make the process of labeling images as painless and fun as possible. If we make the labeling process too complicated people probably won't use it. <br><br>It would for sure be awesome to have a really fine granual labeled dataset, but in my opinion it would already be a huge accomplishment to identify some simple things (*apple*, *banana*, *smartphone*) reliable.
 
 * **Contributer friendly** Another point that's really important for me is the possibility for users to contribute. As most of the backend stuff is written in Golang and not everybody knows Golang we should try to move as much "logic" a possible to config files. Scenes, Objects and Labels should be defined in (JSON like?) config files, so that users can easily create a pull request if they want to add something.
 
@@ -54,12 +54,12 @@ There are a lot of things going on in our issues tracker. The following list sho
 
 * **Make project more contributer friendly** Currently the README is pretty detailed, which could scare off contributers. I think it could make sense to invest some time in making the "onboarding" more smoothly (e.q automate the manual steps; create a Dockerfile...)
 
-* **Remove manual unlocking** Currently every uploaded donation gets unlocked manually in order to make sure that the uploaded content doesn't contain any sensitive material. While this is a good idea in ensuring that we don't accidentally become a hoster of sensitive material (nudity, racist content..) it simply doesn't scale. In order to keep ImageMonkey open and accessible for everybody we should start investigating early in methods to prevent malicious attempts (nudity detection, )  
+* **Remove manual unlocking** Currently every uploaded donation gets unlocked manually in order to make sure that the uploaded content doesn't contain any sensitive material. While this is a good idea in ensuring that we don't accidentally become a hoster of sensitive material (nudity, racist content..) it simply doesn't scale. In order to keep ImageMonkey open and accessible for everybody we should start investigating early in methods to prevent malicious attempts (i.e nudity detection, blocking users with malicious intentions..)  
 
 * **Logo** Every project needs a logo, right?
 
 # Want to contribute? # 
-First of all, I would like to thank [@dobkeratops](https://github.com/dobkeratops) for all the [awesome ideas and suggestions](https://github.com/bbernhard/imagemonkey-core/issues) - very much appreciated! It's always great to see such passion and contribution in OpenSource projects - that's what OpenSource is all about. 
+First of all, I would like to thank [@dobkeratops](https://github.com/dobkeratops) for all the [awesome ideas and suggestions](https://github.com/bbernhard/imagemonkey-core/issues) - very much appreciated! It's always great to see such passion and contribution in Open Source projects - that's what Open Source is all about. 
 
 As ImageMonkey and all it's parts are completely OpenSource, every contribution is highly appreciated. In case you want to check it out, here are some links:  
 
