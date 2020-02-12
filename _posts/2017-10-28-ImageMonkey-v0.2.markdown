@@ -4,6 +4,8 @@ title:  "We made some progress"
 date:   2017-10-28 12:34:25
 categories: general
 image: /assets/article_images/2017-10-06-ImageMonkey-Introduction/taking_photo2.jpg
+subscribe_description: "Want to read more about ImageMonkey?" 
+subscribe_text: "Subscribe now!"
 ---
 
 It's now almost 30 days since the [last blog post](https://imagemonkey.io/blog/general/2017/10/06/ImageMonkey-Introduction.html) and we made some really good progress. If you haven't kept up with us, then here's a quick summary: 
@@ -83,6 +85,10 @@ As ImageMonkey and all it's parts are completely OpenSource, every contribution 
 [https://github.com/bbernhard/imagemonkey-chrome-extension](https://github.com/bbernhard/imagemonkey-chrome-extension)
 
 [https://github.com/bbernhard/imagemonkey-admin](https://github.com/bbernhard/imagemonkey-admin)
+
+
+
+{% include subscribe.html %}
 
 
 

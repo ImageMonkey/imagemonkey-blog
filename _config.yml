@@ -37,6 +37,11 @@ paginate:	5
 
 url: "http://myblog.***.***" # the base hostname & protocol for your site
 baseurl: "/blog"
+
+#subscribe_api_url: "http://127.0.0.1:8081/v1/blog/subscribe"
+subscribe_api_url: "https://api.imagemonkey.io/v1/blog/subscribe"
+
+
 #used to display twitter cards
 twitter_handle: ''
 

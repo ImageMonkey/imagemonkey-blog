@@ -4,6 +4,8 @@ title:  "Let's create our own image dataset"
 date:   2017-10-06 18:34:25
 categories: general
 image: /assets/article_images/2017-10-06-ImageMonkey-Introduction/taking_photo2.jpg
+subscribe_description: "Want to read more about ImageMonkey?" 
+subscribe_text: "Subscribe now!"
 ---
 
 It's now a week since I posted about ImageMonkey on [reddit](https://www.reddit.com/r/MachineLearning/comments/731zwb/p_imagemonkey_a_public_open_source_image_database/). While the initial rush on ImageMonkey has slowed down and the load on the server stabilized again, it's time to reflect and plan the next development steps. 
@@ -72,6 +74,9 @@ As ImageMonkey and all it's parts are completely OpenSource, every contribution 
 [https://github.com/bbernhard/imagemonkey-chrome-extension](https://github.com/bbernhard/imagemonkey-chrome-extension)
 
 [https://github.com/bbernhard/imagemonkey-admin](https://github.com/bbernhard/imagemonkey-admin)
+
+
+{% include subscribe.html %}
 
 
 
