@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "ImageMonkey reaches 100k images"
+title:  "ImageMonkey reaches the 100k milestone"
 date:   2020-02-09 12:34:25
 categories: general
 image: /assets/article_images/2017-10-06-ImageMonkey-Introduction/taking_photo2.jpg
@@ -81,7 +81,7 @@ Apart from that, I'll be working on:
 * some general improvements 
 
 # Thanks #
-Last but not least I want to thank [@dobkeratops](https://github.com/dobkeratops) - without his help ImageMonkey wouldn't be where it is right now. Thanks a lot for all the contributions! 
+Last but not least I want to thank [@dobkeratops](https://github.com/dobkeratops) - ImageMonkey wouldn't be where it is right now without your help. Thanks a lot for all your contributions! 
 
 
 # Want to contribute? # 
